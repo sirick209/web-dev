@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Learning html </title>
+		<script type="text/javascript">
+			alert("Hello World!")
+			var name="Sachin";
+			var last_name="Singh";
+			console.log(name+last_name);
+			console.log(name);
+			var x=11;
+			var y=5;
+			console.log(x+y);
+			console.log(x-y);
+			console.log(x*y);
+			console.log(x/y);
+			console.log(x%y);
+			console.log(++x);
+			console.log(--x);
+
+			function pi(){
+				return 3.14;
+			}
+
+			function area_of_circle(radius){
+				area = pi() * radius * radius;
+				return area;
+			}
+
+			alert(area_of_circle(5))
+			console.log(area_of_circle(5));
+			
+		</script>
+
+		<body>
+			<p id="output"> Default text </p>
+			<script type="text/javascript">
+				document.getElementById("output").innerHTML="New text";  /* changes Default text (line 36) to New text */
+				var a=20;
+				var b=10;
+				if(a>b){
+					alert("a is greater than b")   /* alert gives a pop up bar when webpage is opened */
+					console.log("a is greater than b")   /* console.log prints the output in console */
+				}
+				else{
+					alert("b is greater than a")
+					console.log("b is greater than a")
+				}
+			</script>
+		</body>
+
+	</head>
+</html>
